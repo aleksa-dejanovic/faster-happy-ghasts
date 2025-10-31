@@ -1,0 +1,13 @@
+{
+  "itemGroup.fasterhappyghasts": "Example Mod Tab",
+  "block.fasterhappyghasts.example_block": "Example Block",
+  "item.fasterhappyghasts.example_item": "Example Item",
+
+  "fasterhappyghasts.configuration.title": "FasterHappyGhasts Configs",
+  "fasterhappyghasts.configuration.section.fasterhappyghasts.common.toml": "FasterHappyGhasts Configs",
+  "fasterhappyghasts.configuration.section.fasterhappyghasts.common.toml.title": "FasterHappyGhasts Configs",
+  "fasterhappyghasts.configuration.items": "Item List",
+  "fasterhappyghasts.configuration.logDirtBlock": "Log Dirt Block",
+  "fasterhappyghasts.configuration.magicNumberIntroduction": "Magic Number Text",
+  "fasterhappyghasts.configuration.magicNumber": "Magic Number"
+}
