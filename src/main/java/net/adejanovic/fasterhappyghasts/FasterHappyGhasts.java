@@ -67,7 +67,8 @@ public class FasterHappyGhasts {
     @SubscribeEvent
     public void onDismount(EntityMountEvent event) {
         if (event.isDismounting()
-                && event.getEntityBeingMounted() instanceof HappyGhast ghast) {
+                && event.getEntityBeingMounted() instanceof HappyGhast ghast
+                && ghast.getPassengers().stream().noneMatch(e -> e instanceof Player)) {
             Objects.requireNonNull(ghast.getAttribute(Attributes.FLYING_SPEED)).setBaseValue(Config.GHAST_DEFAULT_SPEED.get());
         }
     }
